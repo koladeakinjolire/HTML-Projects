@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+  #title{
+    margin: 1em auto;
+    text-align: center;
+  }
+  #description{
+       margin: 1em auto;
+    text-align: center;
+  }
+  label, input {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .inline{
+    display:inline;
+  }
+  
+  form{
+    margin: 10px 10px;
+  }
+  
+  fieldset{
+    width:50%;
+    margin-left: 25%;
+    background-color: rgb(58, 58, 158) ;
+    color:white;
+    padding:20px 20px;
+  }
+  
+  #name,#email,#number{
+    width:90%
+  }
+input[type="submit"]{
+  margin:auto;
+  width: 50%;
+  margin: 1em auto;
+  background-color: #00ef00;
+  border-radius:5px;
+}
